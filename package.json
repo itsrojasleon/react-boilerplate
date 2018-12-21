@@ -7,5 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juan Luis Rojas León",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rojasleon/react-boilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/rojasleon/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/rojasleon/react-boilerplate#readme"
 }
