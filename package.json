@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode development"
+    "build": "webpack"
   },
   "author": "Juan Luis Rojas León",
   "license": "MIT",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/rojasleon/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/rojasleon/react-boilerplate#readme"
+  "homepage": "https://github.com/rojasleon/react-boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.1.2"
+  }
 }
