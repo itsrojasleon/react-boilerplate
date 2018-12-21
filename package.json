@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
-    "dev": "webpack --watch --config webpack.config.dev.js"
+    "dev": "webpack-dev-server --open --config webpack.config.dev.js"
   },
   "author": "Juan Luis Rojas León",
   "license": "MIT",
@@ -27,6 +27,7 @@
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.28.1",
     "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.11",
     "webpack-merge": "^4.1.5"
   },
   "dependencies": {
