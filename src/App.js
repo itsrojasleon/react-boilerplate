@@ -7,17 +7,23 @@ class App extends React.Component {
   state = {
     count: 0
   }
+  increment = () => {
+    this.setState(state => ({ count: state.count + 1 }));
+  }
+  decrement = () => {
+    this.setState(state => ({ count: state.count - 1 }));
+  }
   render() {
     return (
       <div>
         <h1 className="title">Hello</h1>
-        <button onClick={() => this.setState(state => ({ count: state.count + 1 }))}>+</button>
-        <button onClick={() => this.setState(state => ({ count: state.count - 1 }))}>-</button>
+        <button onClick={this.increment}>+</button>
+        <button onClick={this.decrement}>-</button>
         <h2>Count: {this.state.count > 10 ? (
           <React.Suspense fallback={null}>
             <Warning />
           </React.Suspense>
-        ) : null}</h2>
+        ) : <div>{this.state.count}</div>}</h2>
       </div>
     );
   }
