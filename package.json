@@ -7,7 +7,8 @@
     "build": "webpack --config webpack.config.prod.js",
     "dev": "webpack-dev-server --open --config webpack.config.dev.js",
     "dev:hot": "npm run dev -- --hot",
-    "test": "jest"
+    "test": "jest",
+    "format": "pretty-quick"
   },
   "author": "Juan Luis Rojas León",
   "license": "MIT",
@@ -36,6 +37,8 @@
     "html-webpack-plugin": "^3.2.0",
     "jest": "^23.6.0",
     "jest-dom": "^3.0.0",
+    "prettier": "^1.15.3",
+    "pretty-quick": "^1.8.0",
     "react-testing-library": "^5.4.2",
     "style-loader": "^0.23.1",
     "webpack": "^4.28.1",
