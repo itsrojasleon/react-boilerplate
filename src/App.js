@@ -29,7 +29,6 @@ class App extends React.Component {
             <div>{this.state.count}</div>
           )}
         </h2>
-        <img src="https://avatars0.githubusercontent.com/u/27437337?s=460&v=4" />
       </div>
     )
   }
