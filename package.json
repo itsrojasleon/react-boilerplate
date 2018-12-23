@@ -8,7 +8,8 @@
     "dev": "webpack-dev-server --open --config webpack.config.dev.js",
     "dev:hot": "npm run dev -- --hot",
     "test": "jest",
-    "format": "pretty-quick"
+    "format": "pretty-quick",
+    "lint": "eslint ./"
   },
   "author": "Juan Luis Rojas León",
   "license": "MIT",
