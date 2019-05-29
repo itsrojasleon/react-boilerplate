@@ -11,10 +11,8 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 ReactDOM.render(
-  <React.StrictMode>
-    <DefaultErrorBoundary>
-      <App />
-    </DefaultErrorBoundary>
-  </React.StrictMode>,
+  <DefaultErrorBoundary>
+    <App />
+  </DefaultErrorBoundary>,
   document.getElementById('app')
 );

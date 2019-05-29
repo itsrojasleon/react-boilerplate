@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
     "dev": "webpack-dev-server --open --config webpack.config.dev.js",
-    "dev:hot": "npm run dev -- --hot",
+    "dev:hot": "npm run dev --hot",
     "test": "jest",
     "format": "pretty-quick",
     "lint": "eslint ./"
@@ -53,15 +53,17 @@
     "react-axe": "^3.0.2",
     "react-testing-library": "^5.4.2",
     "style-loader": "^0.23.1",
-    "webpack": "^4.28.1",
+    "terser-webpack-plugin": "^1.3.0",
+    "webpack": "^4.32.2",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.11",
-    "webpack-merge": "^4.1.5"
+    "webpack-dev-server": "^3.4.1",
+    "webpack-merge": "^4.2.1"
   },
   "dependencies": {
-    "prop-types": "^15.6.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-hot-loader": "^4.6.3"
+    "@hot-loader/react-dom": "^16.8.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.8.8"
   }
 }
