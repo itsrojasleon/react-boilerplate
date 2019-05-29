@@ -53,15 +53,15 @@
     "react-axe": "^3.0.2",
     "react-testing-library": "^5.4.2",
     "style-loader": "^0.23.1",
-    "webpack": "^4.28.1",
+    "webpack": "^4.32.2",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.11",
-    "webpack-merge": "^4.1.5"
+    "webpack-dev-server": "^3.4.1",
+    "webpack-merge": "^4.2.1"
   },
   "dependencies": {
-    "prop-types": "^15.6.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-hot-loader": "^4.6.3"
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.8.8"
   }
 }
