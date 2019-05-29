@@ -1,3 +1,4 @@
+/* Global styles */
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -33,4 +34,9 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+}
+
+/* You can delete this */
+.title {
+  text-align: center;
 }
