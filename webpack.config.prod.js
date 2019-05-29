@@ -1,5 +1,6 @@
 const merge = require('webpack-merge');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+const TerserPlugin = require('terser-webpack-plugin');
 const baseConfig = require('./webpack.config.base');
 
 module.exports = merge(baseConfig, {
@@ -14,5 +15,8 @@ module.exports = merge(baseConfig, {
   externals: {
     react: 'React',
     'react-dom': 'ReactDOM'
+  },
+  optimization: {
+    minimizer: [new TerserPlugin()]
   }
 });
